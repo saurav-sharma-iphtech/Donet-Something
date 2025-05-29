@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		028609362DE84221006ED627 /* HomeSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028609352DE84221006ED627 /* HomeSlider.swift */; };
+		028609382DE842A8006ED627 /* HomeFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028609372DE842A8006ED627 /* HomeFilter.swift */; };
+		0286093A2DE86280006ED627 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028609392DE86280006ED627 /* Model.swift */; };
+		0286093C2DE86FC7006ED627 /* HomeSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0286093B2DE86FC7006ED627 /* HomeSearchBar.swift */; };
 		0297A6572DE73A4F00F59902 /* Donet_SomethingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0297A6562DE73A4F00F59902 /* Donet_SomethingApp.swift */; };
 		0297A6592DE73A4F00F59902 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0297A6582DE73A4F00F59902 /* ContentView.swift */; };
 		0297A65B2DE73A5200F59902 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0297A65A2DE73A5200F59902 /* Assets.xcassets */; };
@@ -14,6 +18,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		028609352DE84221006ED627 /* HomeSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSlider.swift; sourceTree = "<group>"; };
+		028609372DE842A8006ED627 /* HomeFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeFilter.swift; sourceTree = "<group>"; };
+		028609392DE86280006ED627 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		0286093B2DE86FC7006ED627 /* HomeSearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSearchBar.swift; sourceTree = "<group>"; };
 		0297A6532DE73A4F00F59902 /* Donet Something.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Donet Something.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0297A6562DE73A4F00F59902 /* Donet_SomethingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Donet_SomethingApp.swift; sourceTree = "<group>"; };
 		0297A6582DE73A4F00F59902 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +61,10 @@
 			children = (
 				0297A6562DE73A4F00F59902 /* Donet_SomethingApp.swift */,
 				0297A6582DE73A4F00F59902 /* ContentView.swift */,
+				0286093B2DE86FC7006ED627 /* HomeSearchBar.swift */,
+				028609372DE842A8006ED627 /* HomeFilter.swift */,
+				028609392DE86280006ED627 /* Model.swift */,
+				028609352DE84221006ED627 /* HomeSlider.swift */,
 				0297A65A2DE73A5200F59902 /* Assets.xcassets */,
 				0297A65C2DE73A5200F59902 /* Preview Content */,
 			);
@@ -137,8 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0286093A2DE86280006ED627 /* Model.swift in Sources */,
 				0297A6592DE73A4F00F59902 /* ContentView.swift in Sources */,
 				0297A6572DE73A4F00F59902 /* Donet_SomethingApp.swift in Sources */,
+				028609382DE842A8006ED627 /* HomeFilter.swift in Sources */,
+				0286093C2DE86FC7006ED627 /* HomeSearchBar.swift in Sources */,
+				028609362DE84221006ED627 /* HomeSlider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
