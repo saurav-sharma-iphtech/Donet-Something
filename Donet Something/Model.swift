@@ -195,3 +195,64 @@ class DonationViewModel: ObservableObject {
        }
     
 }
+
+
+struct TopDonor: Identifiable {
+    let id = UUID()
+    let name: String
+    let imageName: String
+    let message: String
+}
+
+let topDonors: [TopDonor] = [
+    TopDonor(
+        name: "Anil Kapoor",
+        imageName: "plants",
+        message: "Planting trees today for a greener tomorrow."
+    ),
+    TopDonor(
+        name: "Ravi Kumar",
+        imageName: "blanket",
+        message: "A warm jacket can save someone from a cold night."
+    ),
+    TopDonor(
+        name: "Sneha Singh",
+        imageName: "cloths",
+        message: "Healthy food should reach every plate."
+    ),
+    TopDonor(
+        name: "Rahul Mehta",
+        imageName: "blood",
+        message: "Every drop counts. Donate blood, save lives."
+    ),
+    TopDonor(
+        name: "Pooja Shah",
+        imageName: "toys",
+        message: "Dignity begins with decent clothing."
+    ),
+    TopDonor(
+        name: "Karan Rao",
+        imageName: "water",
+        message: "An old phone can empower someone to connect."
+    ),
+    TopDonor(
+        name: "Zara Khan",
+        imageName: "shoes",
+        message: "Let no child walk barefoot to school."
+    ),
+    TopDonor(
+        name: "Asha Foundation",
+        imageName: "notebook",
+        message: "Education is the best donation you can give."
+    ),
+    TopDonor(
+        name: "Animal Care NGO",
+        imageName: "pet",
+        message: "Even our furry friends need love and care."
+    ),
+    TopDonor(
+        name: "Lakshmi Menon",
+        imageName: "rice",
+        message: "A bag of rice can fill many hungry stomachs."
+    )
+]
