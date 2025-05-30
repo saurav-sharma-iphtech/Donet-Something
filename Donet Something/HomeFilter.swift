@@ -2,12 +2,13 @@ import SwiftUI
 
 struct HomeFilter: View {
     @StateObject private var viewModel = DonationViewModel()
+    @State private var selectedItem: DonationViewModel.DonationItem? = nil
 
     let rows = [GridItem(.fixed(10))]
 
     var body: some View {
         VStack {
-            // Category Filter
+            // Category Filter ScrollView
             ScrollView(.horizontal, showsIndicators: false) {
                 LazyHGrid(rows: rows, spacing: 16) {
                     ForEach(viewModel.categories, id: \.0) { imageName, label in
@@ -44,7 +45,7 @@ struct HomeFilter: View {
             }
             .frame(height: 90)
 
-            // Donation Items
+            // Donation Items ScrollView
             ScrollView(.horizontal, showsIndicators: false) {
                 HStack(spacing: 20) {
                     ForEach(viewModel.filteredOtherDonations) { item in
@@ -75,12 +76,17 @@ struct HomeFilter: View {
                         )
                         .shadow(color: .black.opacity(0.2), radius: 4, x: 0, y: 4)
                         .cornerRadius(10)
-                        .shadow(color: .black.opacity(0.2), radius: 4, x: 0, y: 4)
+                        .onTapGesture {
+                            selectedItem = item
+                        }
                     }
                 }
             }
             .padding()
         }
+        // BOTTOM SHEET
+        .sheet(item: $selectedItem) { item in
+            DonationDetailView(item: item)
+        }
     }
 }
-

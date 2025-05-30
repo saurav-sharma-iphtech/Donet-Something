@@ -64,5 +64,6 @@ struct TopRecipient: View {
             }
             .padding(.top)
         }
+        .padding(.top,20)
     }
 }

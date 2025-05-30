@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02837DCF2DE9CB4300FE2968 /* DonationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02837DCE2DE9CB4300FE2968 /* DonationDetailView.swift */; };
 		028609362DE84221006ED627 /* HomeSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028609352DE84221006ED627 /* HomeSlider.swift */; };
 		028609382DE842A8006ED627 /* HomeFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028609372DE842A8006ED627 /* HomeFilter.swift */; };
 		0286093A2DE86280006ED627 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028609392DE86280006ED627 /* Model.swift */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		02837DCE2DE9CB4300FE2968 /* DonationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonationDetailView.swift; sourceTree = "<group>"; };
 		028609352DE84221006ED627 /* HomeSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSlider.swift; sourceTree = "<group>"; };
 		028609372DE842A8006ED627 /* HomeFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeFilter.swift; sourceTree = "<group>"; };
 		028609392DE86280006ED627 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
@@ -75,6 +77,7 @@
 				0286093D2DE8A034006ED627 /* HomeTopDonners.swift */,
 				0286093B2DE86FC7006ED627 /* HomeSearchBar.swift */,
 				028609372DE842A8006ED627 /* HomeFilter.swift */,
+				02837DCE2DE9CB4300FE2968 /* DonationDetailView.swift */,
 				028609392DE86280006ED627 /* Model.swift */,
 				028609352DE84221006ED627 /* HomeSlider.swift */,
 				0297A65A2DE73A5200F59902 /* Assets.xcassets */,
@@ -165,6 +168,7 @@
 				0297A6592DE73A4F00F59902 /* ContentView.swift in Sources */,
 				0297A6572DE73A4F00F59902 /* Donet_SomethingApp.swift in Sources */,
 				02895E3C2DE96FE30010640D /* TopRecipient.swift in Sources */,
+				02837DCF2DE9CB4300FE2968 /* DonationDetailView.swift in Sources */,
 				028B333A2DE98323003247F2 /* HomeTestiMonial.swift in Sources */,
 				028B33382DE97768003247F2 /* HomeRecentsDonation.swift in Sources */,
 				028609382DE842A8006ED627 /* HomeFilter.swift in Sources */,

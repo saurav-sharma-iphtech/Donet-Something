@@ -61,6 +61,7 @@ struct HomeTopDonners: View {
                     }
                     .padding(.top)
                 }
+                .padding(.top,20)
        
            
     }

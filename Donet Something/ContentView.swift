@@ -10,24 +10,38 @@ import SwiftUI
 struct ContentView: View {
     @State private var searchText = ""
     var body: some View {
-        ZStack{
-            //            Color(red: 222/255, green: 246/255, blue: 236/255)
-            Color(.white)
-                .ignoresSafeArea()
-            VStack{
-                HomeSearchBar()
-                ScrollView{
-                    HomeSlider()
-                    HomeFilter()
-                    HomeRecentsDonation()
-                    HomeTopDonners()
-                    TopRecipient()
-                    HomeTestiMonial()
-                    
-                }
-                
-            }
-        }
+        
+        TabView {
+                    ZStack{
+                        //            Color(red: 222/255, green: 246/255, blue: 236/255)
+                        Color(.white)
+                            .ignoresSafeArea()
+                        VStack{
+                            HomeSearchBar()
+                            ScrollView{
+                                HomeSlider()
+                                HomeFilter()
+                                HomeRecentsDonation()
+                                HomeTopDonners()
+                                TopRecipient()
+                                HomeTestiMonial()
+            
+                            }
+            
+                        }
+                    }
+                      .tabItem {
+                          Label("Home", systemImage: "house")
+                      }
+            HomeFilter()
+                      .tabItem {
+                          Label("Add", systemImage: "plus")
+                      }
+
+              }
+        .accentColor(Color.black)
+             
+
     }
 }
 

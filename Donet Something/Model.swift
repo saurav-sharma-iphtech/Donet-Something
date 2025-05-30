@@ -267,7 +267,26 @@ struct Testimonial: Identifiable {
 
 let testimonials: [Testimonial] = [
     Testimonial(name: "Dogesh Bhai", imageName: "dog", message: "A donation is a gift, typically given for charity, humanitarian aid, or to benefit a cause."),
-    Testimonial(name: "Virat Kohali", imageName: "virat", message: "Helping others is the best way to help yourself.dfghgfcghgfghgcfghgftyugfygcyvgvg"),
-    Testimonial(name: "Kunal Mehta", imageName: "user3", message: "Even a small contribution can make a big difference."),
-    Testimonial(name: "Neha Sinha", imageName: "user4", message: "Give with heart, not just your hand.")
+    Testimonial(name: "Virat Kohali", imageName: "virat", message: "Helping others is the best way to help yourself."),
+    Testimonial(name: "Cristiano Ronaldo", imageName: "cristiano ronaldo", message: "Even a small contribution can make a big difference."),
+    Testimonial(name: "Himanshu chaddha", imageName: "smile", message: "Give with heart, not just your hand.")
 ]
+
+
+struct DonationItem: Identifiable {
+    let id = UUID()
+    let category: String
+    let imageName: String
+    let donorName: String
+    let itemName: String
+}
+
+let allDonations: [DonationItem] = [
+       DonationItem(category: "Plants", imageName: "neem", donorName: "Aarav Sharma", itemName: "Neem Tree"),
+       DonationItem(category: "Cloths", imageName: "water", donorName: "Ravi Kumar", itemName: "Winter Jacket"),
+       DonationItem(category: "Blood", imageName: "blood", donorName: "Rahul Mehta", itemName: "A+ Blood"),
+       DonationItem(category: "Books", imageName: "books", donorName: "Rishi Malhotra", itemName: "Textbooks"),
+       DonationItem(category: "Toys", imageName: "toys", donorName: "Nina Gupta", itemName: "Stuffed Toys"),
+       DonationItem(category: "Groceries", imageName: "rice", donorName: "Lakshmi Menon", itemName: "Rice Packets")
+   ]
+

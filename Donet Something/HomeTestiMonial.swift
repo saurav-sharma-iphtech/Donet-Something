@@ -69,7 +69,8 @@ struct HomeTestiMonial: View {
             }
 
         }
-        .padding(.bottom, 40)
+        .padding(.bottom, 30)
+     
         .background(
             LinearGradient(
                 gradient: Gradient(colors: [Color.white, Color.color2]),
