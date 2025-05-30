@@ -2,6 +2,7 @@ import Foundation
 import SwiftUI
 
 class DonationViewModel: ObservableObject {
+    
     @Published var selectedCategory: String = "Plants"
 
     // For general donations (cloths, blood, veg, etc.)
@@ -281,6 +282,7 @@ struct DonationItem: Identifiable {
     let itemName: String
 }
 
+
 let allDonations: [DonationItem] = [
        DonationItem(category: "Plants", imageName: "neem", donorName: "Aarav Sharma", itemName: "Neem Tree"),
        DonationItem(category: "Cloths", imageName: "water", donorName: "Ravi Kumar", itemName: "Winter Jacket"),
@@ -289,4 +291,5 @@ let allDonations: [DonationItem] = [
        DonationItem(category: "Toys", imageName: "toys", donorName: "Nina Gupta", itemName: "Stuffed Toys"),
        DonationItem(category: "Groceries", imageName: "rice", donorName: "Lakshmi Menon", itemName: "Rice Packets")
    ]
+
 
