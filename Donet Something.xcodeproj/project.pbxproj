@@ -12,6 +12,9 @@
 		0286093A2DE86280006ED627 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028609392DE86280006ED627 /* Model.swift */; };
 		0286093C2DE86FC7006ED627 /* HomeSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0286093B2DE86FC7006ED627 /* HomeSearchBar.swift */; };
 		0286093E2DE8A034006ED627 /* HomeTopDonners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0286093D2DE8A034006ED627 /* HomeTopDonners.swift */; };
+		02895E3C2DE96FE30010640D /* TopRecipient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02895E3B2DE96FE30010640D /* TopRecipient.swift */; };
+		028B33382DE97768003247F2 /* HomeRecentsDonation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028B33372DE97768003247F2 /* HomeRecentsDonation.swift */; };
+		028B333A2DE98323003247F2 /* HomeTestiMonial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028B33392DE98323003247F2 /* HomeTestiMonial.swift */; };
 		0297A6572DE73A4F00F59902 /* Donet_SomethingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0297A6562DE73A4F00F59902 /* Donet_SomethingApp.swift */; };
 		0297A6592DE73A4F00F59902 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0297A6582DE73A4F00F59902 /* ContentView.swift */; };
 		0297A65B2DE73A5200F59902 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0297A65A2DE73A5200F59902 /* Assets.xcassets */; };
@@ -24,6 +27,9 @@
 		028609392DE86280006ED627 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		0286093B2DE86FC7006ED627 /* HomeSearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSearchBar.swift; sourceTree = "<group>"; };
 		0286093D2DE8A034006ED627 /* HomeTopDonners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTopDonners.swift; sourceTree = "<group>"; };
+		02895E3B2DE96FE30010640D /* TopRecipient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopRecipient.swift; sourceTree = "<group>"; };
+		028B33372DE97768003247F2 /* HomeRecentsDonation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRecentsDonation.swift; sourceTree = "<group>"; };
+		028B33392DE98323003247F2 /* HomeTestiMonial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTestiMonial.swift; sourceTree = "<group>"; };
 		0297A6532DE73A4F00F59902 /* Donet Something.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Donet Something.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0297A6562DE73A4F00F59902 /* Donet_SomethingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Donet_SomethingApp.swift; sourceTree = "<group>"; };
 		0297A6582DE73A4F00F59902 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -63,6 +69,9 @@
 			children = (
 				0297A6562DE73A4F00F59902 /* Donet_SomethingApp.swift */,
 				0297A6582DE73A4F00F59902 /* ContentView.swift */,
+				028B33392DE98323003247F2 /* HomeTestiMonial.swift */,
+				028B33372DE97768003247F2 /* HomeRecentsDonation.swift */,
+				02895E3B2DE96FE30010640D /* TopRecipient.swift */,
 				0286093D2DE8A034006ED627 /* HomeTopDonners.swift */,
 				0286093B2DE86FC7006ED627 /* HomeSearchBar.swift */,
 				028609372DE842A8006ED627 /* HomeFilter.swift */,
@@ -155,6 +164,9 @@
 				0286093A2DE86280006ED627 /* Model.swift in Sources */,
 				0297A6592DE73A4F00F59902 /* ContentView.swift in Sources */,
 				0297A6572DE73A4F00F59902 /* Donet_SomethingApp.swift in Sources */,
+				02895E3C2DE96FE30010640D /* TopRecipient.swift in Sources */,
+				028B333A2DE98323003247F2 /* HomeTestiMonial.swift in Sources */,
+				028B33382DE97768003247F2 /* HomeRecentsDonation.swift in Sources */,
 				028609382DE842A8006ED627 /* HomeFilter.swift in Sources */,
 				0286093E2DE8A034006ED627 /* HomeTopDonners.swift in Sources */,
 				0286093C2DE86FC7006ED627 /* HomeSearchBar.swift in Sources */,

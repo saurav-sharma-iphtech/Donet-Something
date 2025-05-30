@@ -17,7 +17,7 @@ struct HomeTopDonners: View {
                         .bold()
                         .padding(.leading)
 
-                    ForEach(topDonors) { donor in
+                    ForEach(topDonors.prefix(4)) { donor in
                         HStack(alignment: .top, spacing: 16) {
                             Image(donor.imageName)
                                 .resizable()
@@ -44,7 +44,24 @@ struct HomeTopDonners: View {
                         .shadow(color: .black.opacity(0.05), radius: 4, x: 0, y: 2)
                         .padding(.horizontal)
                     }
+                    HStack {
+                        Spacer()
+                        Button(action: {
+                            // Action: navigate to full donor list
+                        }) {
+                            Text("View More >>")
+                                .font(.headline)
+                                .padding(.horizontal, 24)
+                                .padding(.vertical, 10)
+                                .background(Color.customGreen)
+                                .foregroundColor(.white)
+                                .cornerRadius(10)
+                        }
+                        Spacer()
+                    }
+                    .padding(.top)
                 }
+       
            
     }
 }

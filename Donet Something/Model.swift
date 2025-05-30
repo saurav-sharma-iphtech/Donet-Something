@@ -242,17 +242,32 @@ let topDonors: [TopDonor] = [
     ),
     TopDonor(
         name: "Asha Foundation",
-        imageName: "notebook",
+        imageName: "books",
         message: "Education is the best donation you can give."
     ),
     TopDonor(
         name: "Animal Care NGO",
-        imageName: "pet",
+        imageName: "dog",
         message: "Even our furry friends need love and care."
     ),
     TopDonor(
         name: "Lakshmi Menon",
-        imageName: "rice",
+        imageName: "vegetable",
         message: "A bag of rice can fill many hungry stomachs."
     )
+]
+
+struct Testimonial: Identifiable {
+    let id = UUID()
+    let name: String
+    let imageName: String
+    let message: String
+}
+
+
+let testimonials: [Testimonial] = [
+    Testimonial(name: "Dogesh Bhai", imageName: "dog", message: "A donation is a gift, typically given for charity, humanitarian aid, or to benefit a cause."),
+    Testimonial(name: "Virat Kohali", imageName: "virat", message: "Helping others is the best way to help yourself.dfghgfcghgfghgcfghgftyugfygcyvgvg"),
+    Testimonial(name: "Kunal Mehta", imageName: "user3", message: "Even a small contribution can make a big difference."),
+    Testimonial(name: "Neha Sinha", imageName: "user4", message: "Give with heart, not just your hand.")
 ]
