@@ -1,47 +1,46 @@
-//
-//  ContentView.swift
-//  Donet Something
-//
-//  Created by iPHTech 26 on 28/05/25.
-//
-
 import SwiftUI
 
 struct ContentView: View {
-    @State private var searchText = ""
+    @State private var path = NavigationPath()
+
     var body: some View {
-        
-        TabView {
-                    ZStack{
-                        //            Color(red: 222/255, green: 246/255, blue: 236/255)
-                        Color(.white)
-                            .ignoresSafeArea()
-                        VStack{
-                            HomeSearchBar()
-                            ScrollView{
-                                HomeSlider()
-                                HomeFilter()
-                                HomeRecentsDonation()
-                                HomeTopDonners()
-                                TopRecipient()
-                                HomeTestiMonial()
-            
-                            }
-            
+        NavigationStack(path: $path) {
+            TabView {
+                ZStack {
+                    VStack {
+                        HomeSearchBar(navigateToNotifications: {
+                            path.append("notifications")
+                        })
+                        ScrollView {
+                            HomeSlider()
+                            HomeFilter()
+                            HomeRecentsDonation()
+                            HomeTopDonners()
+                            TopRecipient()
+                            HomeTestiMonial()
                         }
                     }
-                      .tabItem {
-                          Label("Home", systemImage: "house")
-                      }
-            HomeFilter()
-                      .tabItem {
-                          Label("Add", systemImage: "plus")
-                      }
+                }
+                .tabItem {
+                    Label("Home", systemImage: "house")
+                }
 
-              }
-        .accentColor(Color.black)
-             
+                Chat_Page()
+                    .tabItem {
+                        Label("Message", systemImage:"message")
+                    }
 
+                ProfileView()
+                    .tabItem {
+                        Label("Profile", systemImage: "person")
+                    }
+            }
+            .navigationDestination(for: String.self) { value in
+                if value == "notifications" {
+                    Notification_Page()
+                }
+            }
+        }
     }
 }
 

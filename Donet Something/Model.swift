@@ -292,4 +292,18 @@ let allDonations: [DonationItem] = [
        DonationItem(category: "Groceries", imageName: "rice", donorName: "Lakshmi Menon", itemName: "Rice Packets")
    ]
 
+import Foundation
 
+struct UrgentNeed: Identifiable {
+    let id = UUID()
+    let donorName: String
+    let category: String
+    let imageName: String
+}
+let urgentNeeds: [UrgentNeed] = [
+        UrgentNeed(donorName: "Ayush Singh", category: "Blood", imageName: "blood"),
+        UrgentNeed(donorName: "Reena Patel", category: "Vegetables", imageName: "vegetables"),
+        UrgentNeed(donorName: "Karan Mehta", category: "Clothes", imageName: "clothes"),
+        UrgentNeed(donorName: "Riya Verma", category: "Medicines", imageName: "medicines")
+    ]
+    

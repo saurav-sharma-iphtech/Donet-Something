@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		020EAC652DEDC30400E39316 /* UrgentNeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020EAC642DEDC30400E39316 /* UrgentNeedView.swift */; };
+		0215C3522DEDA82C0088F2AB /* Notification Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0215C3512DEDA82C0088F2AB /* Notification Page.swift */; };
+		0215C3542DEDAAB70088F2AB /* Chat Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0215C3532DEDAAB70088F2AB /* Chat Page.swift */; };
+		02827CE82DED81C400916C33 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02827CE72DED81C400916C33 /* ProfileView.swift */; };
 		02837DCF2DE9CB4300FE2968 /* DonationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02837DCE2DE9CB4300FE2968 /* DonationDetailView.swift */; };
 		028609362DE84221006ED627 /* HomeSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028609352DE84221006ED627 /* HomeSlider.swift */; };
 		028609382DE842A8006ED627 /* HomeFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028609372DE842A8006ED627 /* HomeFilter.swift */; };
@@ -14,6 +18,9 @@
 		0286093C2DE86FC7006ED627 /* HomeSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0286093B2DE86FC7006ED627 /* HomeSearchBar.swift */; };
 		0286093E2DE8A034006ED627 /* HomeTopDonners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0286093D2DE8A034006ED627 /* HomeTopDonners.swift */; };
 		02895E3C2DE96FE30010640D /* TopRecipient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02895E3B2DE96FE30010640D /* TopRecipient.swift */; };
+		028A3FAB2DED62EB00961C38 /* AllDonnerList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028A3FAA2DED62EB00961C38 /* AllDonnerList.swift */; };
+		028A3FAD2DED735800961C38 /* AllRecipient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028A3FAC2DED735700961C38 /* AllRecipient.swift */; };
+		028A3FAF2DED772B00961C38 /* RecentDonationAll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028A3FAE2DED772B00961C38 /* RecentDonationAll.swift */; };
 		028B33382DE97768003247F2 /* HomeRecentsDonation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028B33372DE97768003247F2 /* HomeRecentsDonation.swift */; };
 		028B333A2DE98323003247F2 /* HomeTestiMonial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028B33392DE98323003247F2 /* HomeTestiMonial.swift */; };
 		0297A6572DE73A4F00F59902 /* Donet_SomethingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0297A6562DE73A4F00F59902 /* Donet_SomethingApp.swift */; };
@@ -23,6 +30,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		020EAC642DEDC30400E39316 /* UrgentNeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrgentNeedView.swift; sourceTree = "<group>"; };
+		0215C3512DEDA82C0088F2AB /* Notification Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Notification Page.swift"; sourceTree = "<group>"; };
+		0215C3532DEDAAB70088F2AB /* Chat Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Chat Page.swift"; sourceTree = "<group>"; };
+		02827CE72DED81C400916C33 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		02837DCE2DE9CB4300FE2968 /* DonationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonationDetailView.swift; sourceTree = "<group>"; };
 		028609352DE84221006ED627 /* HomeSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSlider.swift; sourceTree = "<group>"; };
 		028609372DE842A8006ED627 /* HomeFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeFilter.swift; sourceTree = "<group>"; };
@@ -30,6 +41,9 @@
 		0286093B2DE86FC7006ED627 /* HomeSearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSearchBar.swift; sourceTree = "<group>"; };
 		0286093D2DE8A034006ED627 /* HomeTopDonners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTopDonners.swift; sourceTree = "<group>"; };
 		02895E3B2DE96FE30010640D /* TopRecipient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopRecipient.swift; sourceTree = "<group>"; };
+		028A3FAA2DED62EB00961C38 /* AllDonnerList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllDonnerList.swift; sourceTree = "<group>"; };
+		028A3FAC2DED735700961C38 /* AllRecipient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllRecipient.swift; sourceTree = "<group>"; };
+		028A3FAE2DED772B00961C38 /* RecentDonationAll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentDonationAll.swift; sourceTree = "<group>"; };
 		028B33372DE97768003247F2 /* HomeRecentsDonation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRecentsDonation.swift; sourceTree = "<group>"; };
 		028B33392DE98323003247F2 /* HomeTestiMonial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTestiMonial.swift; sourceTree = "<group>"; };
 		0297A6532DE73A4F00F59902 /* Donet Something.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Donet Something.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -71,10 +85,17 @@
 			children = (
 				0297A6562DE73A4F00F59902 /* Donet_SomethingApp.swift */,
 				0297A6582DE73A4F00F59902 /* ContentView.swift */,
+				020EAC642DEDC30400E39316 /* UrgentNeedView.swift */,
+				0215C3512DEDA82C0088F2AB /* Notification Page.swift */,
+				0215C3532DEDAAB70088F2AB /* Chat Page.swift */,
+				02827CE72DED81C400916C33 /* ProfileView.swift */,
+				028A3FAE2DED772B00961C38 /* RecentDonationAll.swift */,
 				028B33392DE98323003247F2 /* HomeTestiMonial.swift */,
 				028B33372DE97768003247F2 /* HomeRecentsDonation.swift */,
 				02895E3B2DE96FE30010640D /* TopRecipient.swift */,
 				0286093D2DE8A034006ED627 /* HomeTopDonners.swift */,
+				028A3FAA2DED62EB00961C38 /* AllDonnerList.swift */,
+				028A3FAC2DED735700961C38 /* AllRecipient.swift */,
 				0286093B2DE86FC7006ED627 /* HomeSearchBar.swift */,
 				028609372DE842A8006ED627 /* HomeFilter.swift */,
 				02837DCE2DE9CB4300FE2968 /* DonationDetailView.swift */,
@@ -168,7 +189,14 @@
 				0297A6592DE73A4F00F59902 /* ContentView.swift in Sources */,
 				0297A6572DE73A4F00F59902 /* Donet_SomethingApp.swift in Sources */,
 				02895E3C2DE96FE30010640D /* TopRecipient.swift in Sources */,
+				028A3FAF2DED772B00961C38 /* RecentDonationAll.swift in Sources */,
 				02837DCF2DE9CB4300FE2968 /* DonationDetailView.swift in Sources */,
+				0215C3522DEDA82C0088F2AB /* Notification Page.swift in Sources */,
+				028A3FAB2DED62EB00961C38 /* AllDonnerList.swift in Sources */,
+				0215C3542DEDAAB70088F2AB /* Chat Page.swift in Sources */,
+				020EAC652DEDC30400E39316 /* UrgentNeedView.swift in Sources */,
+				02827CE82DED81C400916C33 /* ProfileView.swift in Sources */,
+				028A3FAD2DED735800961C38 /* AllRecipient.swift in Sources */,
 				028B333A2DE98323003247F2 /* HomeTestiMonial.swift in Sources */,
 				028B33382DE97768003247F2 /* HomeRecentsDonation.swift in Sources */,
 				028609382DE842A8006ED627 /* HomeFilter.swift in Sources */,

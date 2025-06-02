@@ -8,7 +8,7 @@ struct DonationDetailView: View {
          
             Image(item.imageName)
                 .resizable()
-                .scaledToFill()
+                .scaledToFit()
                 .frame(height: 250)
                 .cornerRadius(12)
                 .padding(.horizontal)
