@@ -29,11 +29,28 @@ struct UrgentNeedView: View {
                             Text(need.category)
                                 .font(.custom("Times New Roman", size: 17))
                                 .foregroundColor(.black)
+                            
+                            HStack {
+                                Spacer()
+                                Button(action: {
+                                    // Action: navigate to full donor list
+                                }) {
+                                    Text("Donate Now")
+                                        .font(.headline)
+                                        .padding(.horizontal, 24)
+                                        .padding(.vertical, 10)
+                                        .background(Color.customGreen)
+                                        .foregroundColor(.white)
+//                                        .cornerRadius(10)
+                                }
+                                Spacer()
+                            }
+                            .padding(.top)
                         }
                         .padding()
                         .background(
                             LinearGradient(
-                                gradient: Gradient(colors: [Color.white, Color.color2]),
+                                gradient: Gradient(colors: [Color.red, Color.color2]),
                                 startPoint: .top,
                                 endPoint: .bottom
                             )
@@ -44,8 +61,10 @@ struct UrgentNeedView: View {
                 }
                 .padding(.horizontal)
             }
+            
         }
-        .padding(.top)
+        .padding()
+       
     }
 }
 

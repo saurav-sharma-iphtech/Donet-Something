@@ -13,7 +13,9 @@ struct ContentView: View {
                         })
                         ScrollView {
                             HomeSlider()
+                            UrgentNeedView()
                             HomeFilter()
+                           
                             HomeRecentsDonation()
                             HomeTopDonners()
                             TopRecipient()
