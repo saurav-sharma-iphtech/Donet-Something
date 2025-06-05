@@ -26,10 +26,13 @@ struct UrgentNeedView: View {
                                 .foregroundColor(.customGreen)
                                 .bold()
 
-                            Text(need.category)
+                            Text(need.category + " A+")
                                 .font(.custom("Times New Roman", size: 17))
                                 .foregroundColor(.black)
-                            
+                            Text("1 Unit")
+                                .font(.custom("Times New Roman", size: 17))
+                                .foregroundColor(.gray)
+                                .bold()
                             HStack {
                                 Spacer()
                                 Button(action: {
