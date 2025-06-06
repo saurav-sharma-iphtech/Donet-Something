@@ -20,7 +20,7 @@ struct Donet_SomethingApp: App {
     
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LoaderPage()
         }
     }
 }
